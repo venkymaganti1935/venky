@@ -12,19 +12,19 @@ public class JavaProgram
 	   
        if((yr%4 == 0) && (yr%100!=0))
        {
-           System.out.print(yes);
+           System.out.print("yes");
        }
        else if((yr%100 == 0) && (yr%400 == 0))
        {
-           System.out.print(yes);
+           System.out.print("yes");
        }
        else if(yr%400 == 0)
        {
-           System.out.print(yes);
+           System.out.print("yes");
        }
        else
        {
-           System.out.print(no);
+           System.out.print("no");
        }
     }
 }
